@@ -1,0 +1,50 @@
+## Build artifacts
+bin/
+obj/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+## Logs
+*.log
+logs/
+
+## Configurazioni locali
+appsettings.Development.json
+appsettings.Local.json
+*.env
+
+## Autogenerati
+*.g.cs
+*.g.i.cs
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+artifacts/
+
+## Database locali (se un domani usi SQLite, LocalDB, ecc.)
+*.mdf
+*.ldf
+*.db
+*.sqlite
+
+## Sistema operativo
+Thumbs.db
+Desktop.ini
+
+## Altro
+*.tmp
+*.temp
+*.cache
+*.bak
